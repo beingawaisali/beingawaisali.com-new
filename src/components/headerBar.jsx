@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import './css/header.css';
 
-
-let headerBar = (props) => {
+let HeaderBar = (props) => {
     return (
-        <div className="image-section-parent">
-            <img src={logo} />
+        <div id="main-header">
+            <h2>Logo</h2>
+            <h2>Menu List</h2>
         </div>
     )
 }
 
-export default headerBar;
+export default HeaderBar;

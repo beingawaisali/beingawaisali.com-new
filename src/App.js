@@ -5,14 +5,17 @@ import './App.css';
 // 
 
 // Components
-import headerBar from "./components/headerBar.jsx";
+import HeaderBar from "./components/HeaderBar.jsx";
+import Body from './components/Body.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
   return (
     <div className="App">
-        <headerBar />
-        <h1>Hello</h1>
+        <HeaderBar />
+        <Body />
+        <Footer />
     </div>
   );
 }
