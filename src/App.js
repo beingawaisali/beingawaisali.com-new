@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 // #041C32 - main
-// 
+// #04293A - Lighter
+// #064663 - 3rd
+// #ECB365 - Camel
 
 // Components
 import HeaderBar from "./components/HeaderBar.jsx";

@@ -3,4 +3,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    background-color: #041C32;
+}
+
+.manu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 7px;
+
+}
+
+.main-logo {
+    width: 70px
 }
