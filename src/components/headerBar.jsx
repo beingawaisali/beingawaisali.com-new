@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/header.css';
 import Logo from '../images/Logo-1.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 let mobileMenu = false;
 
@@ -28,7 +30,7 @@ let HeaderBar = (props) => {
                 
             </ul>
             <div className="mobile-menu">
-                <i class="fa-light fa-bars"></i>
+                <FontAwesomeIcon icon={faBars} />
             </div>
         </div>
     )

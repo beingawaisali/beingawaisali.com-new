@@ -28,3 +28,12 @@
 .mobile-menu {
     display: none;
 }
+
+@media(max-width: 650px) {
+    .mobile-menu {
+        display: flex;
+    }
+    .manu-bar {
+        display: none;
+    }
+}
