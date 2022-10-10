@@ -12,8 +12,10 @@
     background-color: #04293A;
     color: #dadada;
     line-height: 35px;
-    height: 100%;
-    /* position: sticky; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 .social-icon {

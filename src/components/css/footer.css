@@ -1,6 +1,7 @@
 #main-footer {
     text-align: center;
     background-color: #04293A;
+    border-top: 2px solid #041C32;
 }
 
 #footer-divider {
@@ -19,8 +20,9 @@
 
 .footer-sections {
     background-color: #04293A;
-    max-width: 600px;
+    max-width: 500px;
     min-width: 350px;
+    text-align: left;
 }
 
 #footer-copyright {
