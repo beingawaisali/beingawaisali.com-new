@@ -12,6 +12,7 @@ import './App.css';
 import HeaderBar from "./components/HeaderBar.jsx";
 import Body from './components/Body.jsx';
 import Footer from './components/Footer.jsx';
+import MenuBar from './components/MenuBar.jsx';
 
 
 let mobileMenu = false;
@@ -34,9 +35,9 @@ function App() {
   return (
     <div className="App">
         <HeaderBar toggleMenubar={toggleMenu}/>
-            <div>
-                { toggleMenu ? <div></div> : listMenu }
-            </div>
+        {/* {
+            mobileMenu ? <Body /> : <MenuBar />
+        } */}
         <Body />
         <Footer />
     </div>
