@@ -1,19 +1,81 @@
 #body-parent {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 122px;
+
 }
 
 .body-side {
     width:10%;
     text-align: center;
-    background-color: pink;
-
+    background-color: #04293A;
+    color: #dadada;
+    line-height: 35px;
+    height: 100%;
+    /* position: sticky; */
 }
+
+.social-icon {
+    color: #dadada;
+    transition: 500ms;
+}
+
+.social-icon:hover {
+    color: #4d99dd;
+    transition: 500ms;
+}
+
 
 .body-main {
     width:80%;
     text-align: center;
-    background-color: blue;
+    background-color: #041C32;
 
+}
+
+#social-sidebar {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.email {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -2px;
+    color: #dadada;
+    text-decoration: none;
+}
+
+.email-parent {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 500px) {
+    
+    .body-side {
+        display: none;
+    }
+    
+    .body-main {
+        width: 100%;
+    }
+    #body-parent {
+        padding-top: 78px;
+    }
+    
+}
+
+@media(max-width: 650px) {
+    #body-parent {
+        padding-top: 90px;
+    }
+    
+}
+@media(max-width: 450px) {
+    #body-parent {
+        padding-top: 85px;
+    }
+    
 }

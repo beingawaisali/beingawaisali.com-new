@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding:  20px 3.5%;
     background-color: #041C32;
+    position: fixed;
+    z-index: 1;
+    width: 93%;
 }
 
 .manu-bar {
@@ -58,6 +61,10 @@
     .main-logo {
         width: 50px
     }
+    /* #main-header {
+        padding: 2.5% 40px;
+        width: 95%;
+    } */
 }
 
 @media(max-width: 450px) {

@@ -1,5 +1,6 @@
 #main-footer {
     text-align: center;
+    background-color: #04293A;
 }
 
 #footer-divider {
@@ -7,4 +8,47 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#footer-divider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-sections {
+    background-color: #04293A;
+    max-width: 600px;
+    min-width: 350px;
+}
+
+#footer-copyright {
+    background-color: #041C32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #dadada;
+    height: 35px;
+}
+
+#footer-copyright:hover .heart-icon {
+    transition: 700ms;
+    color: maroon;
+    margin: 0px 3px;
+    font-size: 20px;
+}
+
+.heart-icon {
+    transition: 700ms;
+    margin: 0px 5px;
+    color: red;
+}
+
+@media(max-width: 370px) {
+    .footer-sections {
+        max-width: 100%;
+        min-width: 100%;
+    }
 }

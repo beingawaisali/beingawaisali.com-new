@@ -5,6 +5,8 @@ import './App.css';
 // #04293A - Lighter
 // #064663 - 3rd
 // #ECB365 - Camel
+// #4d99dd - Logo color
+// #dadada - Text
 
 // Components
 import HeaderBar from "./components/HeaderBar.jsx";
@@ -32,9 +34,9 @@ function App() {
   return (
     <div className="App">
         <HeaderBar toggleMenubar={toggleMenu}/>
-        <div>
-                    { toggleMenu ? <div></div> : listMenu }
-                </div>
+            <div>
+                { toggleMenu ? <div></div> : listMenu }
+            </div>
         <Body />
         <Footer />
     </div>
