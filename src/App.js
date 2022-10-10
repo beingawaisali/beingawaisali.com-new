@@ -12,10 +12,29 @@ import Body from './components/Body.jsx';
 import Footer from './components/Footer.jsx';
 
 
+let mobileMenu = false;
+
+console.log(mobileMenu)
+
+let toggleMenu = () => {
+    if (mobileMenu == false) {
+        mobileMenu = true
+    } else (
+        mobileMenu = false
+    )
+console.log(mobileMenu)
+}
+
+let listMenu =  "<div>Menu List Mobile</div>";
+
+
 function App() {
   return (
     <div className="App">
-        <HeaderBar />
+        <HeaderBar toggleMenubar={toggleMenu}/>
+        <div>
+                    { toggleMenu ? <div></div> : listMenu }
+                </div>
         <Body />
         <Footer />
     </div>

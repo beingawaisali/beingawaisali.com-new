@@ -16,7 +16,22 @@
 .menu-list {
     list-style-type: none;
     padding: 7px;
+    margin-right: 25px;
+}
 
+.menu-list a {
+    color: #dadada;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.menu-list a:hover {
+    color: #A5C9CA;
+    transition: 500ms;
+}
+
+.menu-list-num {
+    color: #A5C9CA
 }
 
 .main-logo {
@@ -29,11 +44,30 @@
     display: none;
 }
 
+.menu-icon {
+    font-size: 20px;
+}
+
 @media(max-width: 650px) {
     .mobile-menu {
         display: flex;
     }
     .manu-bar {
         display: none;
+    }
+    .main-logo {
+        width: 50px
+    }
+}
+
+@media(max-width: 450px) {
+    .main-logo {
+        width: 45px
+    }
+}
+
+@media(max-width: 760px) {
+    .menu-list {
+        margin-right: 12px;
     }
 }
