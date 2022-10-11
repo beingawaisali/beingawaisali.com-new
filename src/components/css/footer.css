@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #04293A;
     border-top: 2px solid #041C32;
+    padding-top: 20px;
 }
 
 #footer-divider {
@@ -35,7 +36,7 @@
     height: 35px;
 }
 
-#footer-copyright:hover .heart-icon {
+#main-footer:hover .heart-icon {
     transition: 700ms;
     color: maroon;
     margin: 0px 3px;

@@ -12,32 +12,32 @@ function Body () {
             <div className="body-side">
                 <ul id="social-sidebar">
                     <li className="social-list">
-                        <a href="">
+                        <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
                             <i className="fab fa-github"></i>
                         </a>
                     </li>
                     <li className="social-list">
-                        <a href="">
+                        <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
                         <i className="fab fa-facebook"></i>
                         </a>
                     </li>
                     <li className="social-list">
-                        <a href="">
+                        <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
                         <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li className="social-list">
-                        <a href="">
+                        <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li className="social-list">
-                        <a href="">
+                        <a href="https://instagram.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
                             <i className="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li className="social-list">
-                        <a href="">
+                        <a href="" rel="nofollow noopener noreferrer" target="_blank">
                             <i classNamw="fab fa-earth"></i>
                         </a>
                     </li>
