@@ -13,32 +13,32 @@ function Body () {
                 <ul id="social-sidebar">
                     <li className="social-list">
                         <a href="">
-                            <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                            <i className="fab fa-github"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="">
-                            <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                        <i className="fab fa-facebook"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="">
-                        <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                        <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="">
-                        <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                            <i className="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="">
-                        <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                            <i className="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="">
-                        <FontAwesomeIcon icon={faBars} className="social-icon"/>
+                            <i classNamw="fab fa-earth"></i>
                         </a>
                     </li>
                 </ul>
