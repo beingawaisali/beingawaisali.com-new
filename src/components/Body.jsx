@@ -61,51 +61,6 @@ function Body () {
                 <div className="body-card">
                     <h2>Connect</h2>
                 </div>
-                <div className="body-card">
-                    <h2>Profile</h2>
-                </div>
-                <div className="body-card">
-                    <h2>About</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Portfolio</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Hire</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Connect</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Profile</h2>
-                </div>
-                <div className="body-card">
-                    <h2>About</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Portfolio</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Hire</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Connect</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Profile</h2>
-                </div>
-                <div className="body-card">
-                    <h2>About</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Portfolio</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Hire</h2>
-                </div>
-                <div className="body-card">
-                    <h2>Connect</h2>
-                </div>
             </div>
             
             

@@ -32,15 +32,17 @@ console.log(mobileMenu)
 
 let listMenu =  "<div>Menu List Mobile</div>";
 
+let body = <Body />;
+let menuBar = <MenuBar />
 
 function App() {
   return (
     <div className="App">
         <HeaderBar toggleMenubar={toggleMenu}/>
-        {/* {
-            mobileMenu ? <Body /> : <MenuBar />
-        } */}
-        <Body />
+        {
+            mobileMenu == false ? body : menuBar
+        }
+        {/* <Body /> */}
         <Footer />
     </div>
   );
