@@ -29,7 +29,7 @@ let HeaderBar = (props) => {
                 <li className="menu-list"><span className="menu-list-num">02. </span>
                     <a href="#">Hire</a>
                 </li>
-                <li className="menu-list"><span className="menu-list-num">03. </span>
+                <li className="menu-list"><span className="menu-list-num">03. </span> 
                     <a href="#">Portfolio</a>
                 </li>
                 <li className="menu-list"><span className="menu-list-num">04. </span>
