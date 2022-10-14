@@ -54,6 +54,20 @@
     justify-content: center;
 }
 
+.social-list a {
+    color: #dadada;
+    transition: 700ms;
+}
+
+.social-list a:hover {
+    color: #A5C9CA;
+    transition: 700ms;
+}
+
+.social-icons-sidebar {
+    font-size: 18px;
+}
+
 @media(max-width: 500px) {
     
     .body-side {

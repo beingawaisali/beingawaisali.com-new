@@ -13,32 +13,32 @@ function Body () {
                 <ul id="social-sidebar">
                     <li className="social-list">
                         <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
-                            <i className="fab fa-github"></i>
+                            <i className="fab fa-github social-icons-sidebar"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
-                        <i className="fab fa-facebook"></i>
+                        <i className="fab fa-facebook social-icons-sidebar"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin social-icons-sidebar"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
-                            <i className="fab fa-twitter"></i>
+                            <i className="fab fa-twitter social-icons-sidebar"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="https://instagram.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">
-                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-instagram social-icons-sidebar"></i>
                         </a>
                     </li>
                     <li className="social-list">
                         <a href="" rel="nofollow noopener noreferrer" target="_blank">
-                            <i classNamw="fab fa-earth"></i>
+                            <i classNamw="fab fa-earth social-icons-sidebar"></i>
                         </a>
                     </li>
                 </ul>
