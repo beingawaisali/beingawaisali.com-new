@@ -9,13 +9,14 @@
 .body-side {
     width: 8%;
     text-align: center;
-    background-color: #04293A;
+    background-color: #041C32;
     color: #dadada;
     line-height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    height: 65vh;
 }
 
 .social-icon {
@@ -33,7 +34,6 @@
     width: 84%;
     text-align: center;
     background-color: #041C32;
-
 }
 
 #social-sidebar {
