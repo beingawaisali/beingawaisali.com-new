@@ -7,6 +7,8 @@ import './App.css';
 // #ECB365 - Camel
 // #4d99dd - Logo color
 // #dadada - Text
+// #0383bb - H1
+// 
 // https://brittanychiang.com/
 // http://web.archive.org/web/20210412055209/https://beingawaisali.com/
 

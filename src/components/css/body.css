@@ -69,11 +69,9 @@
 }
 
 @media(max-width: 500px) {
-    
     .body-side {
         display: none;
     }
-    
     .body-main {
         width: 100%;
     }
