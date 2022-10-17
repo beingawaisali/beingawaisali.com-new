@@ -43,11 +43,11 @@
 
 @media(max-width: 650px) {
     #header-section {
-        padding: 10%;
-        width: 80%
+        padding: 5%;
+        width: 90%
     }
     #header-section-blank {
-        width: 10%
+        width: 5%
     }
     #header-section p {
         font-size: 14px;
@@ -74,7 +74,7 @@
         font-size: 1.2em;
     }
     #header-section {
-        padding: 10%;
+        padding: 5%;
         width: 90%
     }
     #header-section-blank {

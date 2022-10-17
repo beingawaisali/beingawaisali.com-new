@@ -41,10 +41,8 @@ function App() {
   return (
     <div className="App">
         <HeaderBar toggleMenubar={toggleMenu}/>
-        {
-            mobileMenu == false ? body : menuBar
-        }
-        {/* <Body /> */}
+        
+        <Body />
         <Footer />
     </div>
   );
