@@ -13,16 +13,24 @@ function Footer() {
                 </div>
                 <div className="footer-sections">
                     <h3>Social Media</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>LinkedIn</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
+                    <ul className="footer-list-sec">
+                        <li>
+                        <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Github</a>
+                        </li>
+                        <li>
+                        <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                        <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                        <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-sections">
                     <h3>Top Content</h3>
-                    <ul>
+                    <ul className="footer-list-sec">
                         <li>Blog 1</li>
                         <li>Blog 2</li>
                         <li>Blog 3</li>

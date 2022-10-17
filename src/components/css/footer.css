@@ -5,12 +5,6 @@
     padding-top: 20px;
 }
 
-#footer-divider {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
 #footer-divider {
     display: flex;
@@ -22,8 +16,9 @@
 .footer-sections {
     background-color: #04293A;
     max-width: 500px;
-    min-width: 350px;
+    min-width: 310px;
     text-align: left;
+    padding: 25px
 }
 
 #footer-copyright {
@@ -49,9 +44,28 @@
     color: red;
 }
 
+.footer-list-sec {
+    list-style-type: none;
+    line-height: 27px;
+    margin-left: -30px
+}
+
+.footer-list-sec a {
+    color: #dadada
+}
+
 @media(max-width: 370px) {
     .footer-sections {
         max-width: 100%;
         min-width: 100%;
+    }
+}
+
+@media (max-width: 909px) {
+    #footer-divider {
+        justify-content: left;
+    }
+    #main-footer {
+        justify-content: center;
     }
 }
