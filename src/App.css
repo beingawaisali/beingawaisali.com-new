@@ -1,7 +1,11 @@
+html {
+  margin: 0px;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    color: #dadada;
+    /* color: #dadada; */
     background-color: #04293A;
 }
 
@@ -34,4 +38,40 @@ body {
   border: 1px solid #041C32;
   transition: 600ms;
   color: #A5C9CA;
+}
+
+/* text style */
+.h1 {
+  font-size: 3em;
+  color: #0383bb;
+}
+.h2 {
+  font-size: 3em;
+  color: #ffffff;
+}
+.h3 {
+  color: #dadada;
+}
+.para {
+  font-size: 14px;
+  color: #dadada !important
+}
+
+
+@media(max-width: 650px) {
+  .h1 {
+      font-size: 2em;
+  }
+  .h2 {
+      font-size: 1.5em;
+  }
+}
+
+@media(max-width: 415px) {
+  .h1 {
+      font-size: 1.5em;
+  }
+  .h2 {
+      font-size: 1.2em;
+  }
 }
