@@ -53,12 +53,12 @@
     color: #dadada
 }
 
-@media(max-width: 370px) {
+/* @media(max-width: 370px) {
     .footer-sections {
         max-width: 100%;
         min-width: 100%;
     }
-}
+} */
 
 @media (max-width: 909px) {
     #footer-divider {

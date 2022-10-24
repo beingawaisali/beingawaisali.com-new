@@ -65,8 +65,6 @@ function Body () {
                     <h2>Connect</h2>
                 </div>
             </div>
-            
-            
 
             {/* Sidebar Right */}
             <div className="body-side">
