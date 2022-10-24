@@ -17,12 +17,9 @@
 #header-section p {
     font-size: 14px;
 }
-#header-section h1 {
-    font-size: 3em;
-    color: #0383bb;
-}
+
 #header-section h2 {
-    font-size: 3em;
+    font-size: 3em !important;
     color: #ffffff;
 }
 
@@ -52,11 +49,8 @@
     #header-section p {
         font-size: 14px;
     }
-    #header-section h1 {
-        font-size: 2em;
-    }
     #header-section h2 {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
     .mobile-bio {
         display: inline;
@@ -67,11 +61,8 @@
 }
 
 @media(max-width: 415px) {
-    #header-section h1 {
-        font-size: 1.5em;
-    }
     #header-section h2 {
-        font-size: 1.2em;
+        font-size: 1.2em !important;
     }
     #header-section {
         padding: 20px 5%;

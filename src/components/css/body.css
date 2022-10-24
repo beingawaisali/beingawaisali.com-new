@@ -80,7 +80,6 @@
     }
     
 }
-
 @media(max-width: 650px) {
     #body-parent {
         padding-top: 90px;
@@ -89,7 +88,7 @@
 }
 @media(max-width: 450px) {
     #body-parent {
-        padding-top: 85px;
+        padding-top: 80px;
     }
     
 }

@@ -8,11 +8,11 @@ function Footer() {
         <footer id="main-footer">
             <div id="footer-divider">
                 <div className="footer-sections">
-                    <h3>About</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <h3 className='h3'>About</h3>
+                    <p className='para'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 </div>
                 <div className="footer-sections">
-                    <h3>Social Media</h3>
+                    <h3 className='h3'>Social Media</h3>
                     <ul className="footer-list-sec">
                         <li>
                         <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Github</a>
@@ -29,7 +29,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-sections">
-                    <h3>Top Content</h3>
+                    <h3 className='h3'>Top Content</h3>
                     <ul className="footer-list-sec">
                         <li>Blog 1</li>
                         <li>Blog 2</li>

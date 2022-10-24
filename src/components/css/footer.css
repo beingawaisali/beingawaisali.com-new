@@ -15,7 +15,7 @@
 .footer-sections {
     background-color: #04293A;
     max-width: 500px;
-    min-width: 310px;
+    /* min-width: 250px; */
     text-align: left;
     padding: 25px
 }
@@ -53,6 +53,10 @@
     color: #dadada
 }
 
+.footer-list-sec > * {
+    color: #dadada
+}
+
 /* @media(max-width: 370px) {
     .footer-sections {
         max-width: 100%;
@@ -62,9 +66,22 @@
 
 @media (max-width: 909px) {
     #footer-divider {
-        justify-content: left;
+        /* justify-content: left; */
     }
     #main-footer {
         justify-content: center;
+    }
+}
+
+@media (max-width: 872px) {
+    .footer-sections {
+        padding: 0px 15px
+    }
+    #footer-divider {
+        justify-content: left;
+    }
+    #main-footer {
+        width: 96%;
+        padding: 20px 2%;
     }
 }

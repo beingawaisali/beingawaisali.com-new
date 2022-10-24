@@ -23,27 +23,14 @@ let mobileMenu = false;
 
 console.log(mobileMenu)
 
-let toggleMenu = () => {
-    if (mobileMenu == false) {
-        mobileMenu = true
-    } else (
-        mobileMenu = false
-    )
-console.log(mobileMenu)
-}
-
-let listMenu =  "<div>Menu List Mobile</div>";
-
-let body = <Body />;
-let menuBar = <MenuBar />
 
 function App() {
   return (
     <div className="App">
-        <HeaderBar toggleMenubar={toggleMenu}/>
-        
+        <HeaderBar/>  
         <Body />
         <Footer />
+
     </div>
   );
 }

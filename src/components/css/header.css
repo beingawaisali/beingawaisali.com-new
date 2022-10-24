@@ -50,6 +50,7 @@
 
 .menu-icon {
     font-size: 20px;
+    color: #dadada
 }
 
 @media(max-width: 650px) {
@@ -70,7 +71,7 @@
 
 @media(max-width: 450px) {
     .main-logo {
-        width: 45px
+        width: 40px
     }
 }
 
