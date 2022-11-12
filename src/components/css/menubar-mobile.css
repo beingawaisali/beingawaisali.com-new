@@ -1,0 +1,23 @@
+#mobile-menu {
+    height: 80vh;
+    width: 100%;
+    padding-top: 120px;
+    background-color: yellowgreen;
+}
+
+
+#mobile-menu ul {
+    list-style-type: none;
+    color: #dadada;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: underline;
+    font-size: 1.7em;
+    /* margin-left: 0px; */
+    padding-right: 24px;
+}
+
+#mobile-menu ul li {
+    /* margin-left: -20px; */
+    
+}

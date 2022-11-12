@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 122px;
-    width: 100%;
+    /* padding-top: 122px; */
+    width: 96%;
+    padding: 115px 2% 0px 2%;
+    background-color: #041C32;
 }
 
 .body-side {
@@ -32,7 +34,7 @@
 
 .body-main {
     width: 84%;
-    text-align: center;
+    /* text-align: center; */
     background-color: #041C32;
 }
 
@@ -44,9 +46,10 @@
 .email {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     color: #dadada;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .email-parent {
@@ -67,6 +70,17 @@
 .social-icons-sidebar {
     font-size: 18px;
 }
+
+/* .fixed-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.fixed-left {
+    position: fixed;
+    left: 0;
+    top: 0;
+} */
 
 @media(max-width: 500px) {
     .body-side {

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
-    return(
+    return (
         <footer id="main-footer">
             <div id="footer-divider">
                 <div className="footer-sections">
@@ -15,16 +15,20 @@ function Footer() {
                     <h3 className='h3'>Social Media</h3>
                     <ul className="footer-list-sec">
                         <li>
-                        <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Github</a>
+                            <i className="fab fa-github"></i>
+                            <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Github</a>
                         </li>
                         <li>
-                        <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
+                            <i className="fab fa-facebook"></i>
+                            <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
                         </li>
                         <li>
-                        <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
+                            <i className="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
                         </li>
                         <li>
-                        <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+                            <i className="fab fa-twitter"></i>
+                            <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
                         </li>
                     </ul>
                 </div>
@@ -39,8 +43,8 @@ function Footer() {
                 </div>
             </div>
             <div id="footer-copyright">
-                Developed with 
-                <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
+                Developed with
+                <FontAwesomeIcon icon={faHeart} className="heart-icon" />
                 by Awais Ali
             </div>
         </footer>

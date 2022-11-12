@@ -8,6 +8,7 @@
     z-index: 1;
     width: 93%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 6px 0px;
+    top: 0;
 }
 
 .manu-bar {
@@ -40,6 +41,25 @@
 
 .main-logo {
     width: 70px
+}
+
+.menu-items::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #064663;
+    transition: width .5s;
+}
+
+
+.menu-items:hover::after {
+  width: 100%;
+  border: 0px solid #064663;
+}
+.menu-items:hover {
+  transition: 600ms;
+  color: #A5C9CA;
 }
 
 /* Mobile Menu */

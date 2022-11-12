@@ -18,22 +18,23 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 // }
 
 
+
 let HeaderBar = (props) => {
     return (
         <div id="main-header">
             <img src={Logo} className="main-logo"/>
             <ul className="manu-bar">
                 <li className="menu-list"><span className="menu-list-num">01. </span>
-                    <a href="#">About</a>
+                    <a href="#app" className="menu-items">About</a>
                 </li>
                 <li className="menu-list"><span className="menu-list-num">02. </span>
-                    <a href="#">Hire</a>
+                    <a href="#hire-parent" className="menu-items">Hire</a>
                 </li>
                 <li className="menu-list"><span className="menu-list-num">03. </span> 
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolio-parent" className="menu-items">Portfolio</a>
                 </li>
                 <li className="menu-list"><span className="menu-list-num">04. </span>
-                    <a href="#">Connect</a>
+                    <a href="#connect-parent" className="menu-items">Connect</a>
                 </li>
                 <li className="menu-list">
                     <button className="button-1 shape">Resume 
@@ -42,7 +43,7 @@ let HeaderBar = (props) => {
                 
             </ul>
             <div className="mobile-menu">
-                <FontAwesomeIcon icon={faBars} className="menu-icon" onClick={props.toggleMenubar}/>
+                <FontAwesomeIcon icon={faBars} className="menu-icon" onClick={props.clickHam} />
             </div>
         </div>
     )

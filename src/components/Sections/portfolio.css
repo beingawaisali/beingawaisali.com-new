@@ -1,0 +1,43 @@
+.portfolio-buttons {
+    margin: 0px 15px;
+    padding-top: 11px;
+}
+
+.portfolio-items {
+    width: 350px;
+    height: 220px;
+    background-color: aliceblue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.portfolio-sec > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.section-headings {
+    padding: 0px 20px;
+    text-decoration: underline;
+}
+.section-headings h2 {
+    text-decoration: underline;
+}
+
+.buttons-parent {
+    text-align: center;
+}
+
+@media (max-width: 370px) {
+    .portfolio-items {
+        max-width: 320px;
+        height: 180px;
+        margin: 5px 15px;
+    }
+}
