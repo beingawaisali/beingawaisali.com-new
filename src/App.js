@@ -20,17 +20,15 @@ import MenuBarMobile from './components/MenuBarMobile.jsx';
 import Connect from './components/Sections/Connect';
 
 
+
 // let mobileMenu = false;
 
 // function toggleMenu () {
-
 //   mobileMenu ? mobileMenu = false : mobileMenu = true;
 //   console.log(mobileMenu)
-
 // }
 
 // console.log(mobileMenu)
-
 
 // function makeSome () {
 //   console.log("Hiiii")
@@ -44,7 +42,6 @@ import Connect from './components/Sections/Connect';
 //         {/* <MenuBar />
 //         <Body /> */}
 //         <Footer />
-
 //     </div>
 //   );
 // }
@@ -66,7 +63,7 @@ class App extends React.Component {
     return(
       <div className="App" id="app">
 
-        <HeaderBar clickHam={ () => this.toggleButton() }/>
+        <HeaderBar clickHam={ () => this.toggleButton() } />
         {this.state.isMobile == false ? <Body /> : <MenuBarMobile />}
         {!this.state.isMobile ? <Footer /> : null }
 

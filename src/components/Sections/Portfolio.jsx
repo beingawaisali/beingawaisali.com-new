@@ -26,6 +26,7 @@ import './portfolio.css';
 //     )
 // }
 
+
 class Portfolio extends React.Component {
 
     state = {

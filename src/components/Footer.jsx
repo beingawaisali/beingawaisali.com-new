@@ -41,6 +41,14 @@ function Footer() {
                         <li>Blog 4</li>
                     </ul>
                 </div>
+                <div className="footer-sections">
+                    <h3 className='h3'>Email</h3>
+                    <p className='para'>Enter Your Email to Subscribe my Email List</p>
+                    <form>
+                        <input type="email" className="sub-input input-1" placeholder='Email...'/>
+                        <button className='sub-button button-1'>Subscribe</button>
+                    </form>
+                </div>
             </div>
             <div id="footer-copyright">
                 Developed with

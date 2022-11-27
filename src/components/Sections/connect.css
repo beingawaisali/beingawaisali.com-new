@@ -37,6 +37,10 @@
     /* width: 100%; */
 }
 
+.connect-form button {
+    width: 95%;
+}
+
 #connect-parent h3 {
     text-align: center;
 }

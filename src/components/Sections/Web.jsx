@@ -1,9 +1,9 @@
 import React from "react";
 import './portfolio.css';
 
-function Web() {
+function Web(props) {
     return (
-        <div className='web-projects'>
+        <div className='web-projects' style={props.showStyle}>
                     <div className="portfolio-items">Web</div>
                     <div className="portfolio-items">Web</div>
                     <div className="portfolio-items">Web</div>

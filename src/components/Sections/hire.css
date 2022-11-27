@@ -5,3 +5,11 @@
     background-color: #041C32;
 }
 
+
+#hire-parent h2 {
+    text-decoration: underline;
+}
+
+.hire-parent {
+    background-color: aliceblue;
+}
