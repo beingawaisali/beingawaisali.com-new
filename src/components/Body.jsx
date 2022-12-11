@@ -43,11 +43,11 @@ function Body () {
                             <i className="fab fa-instagram social-icons-sidebar"></i>
                         </a>
                     </li>
-                    <li className="social-list">
+                    {/* <li className="social-list">
                         <a href="" rel="nofollow noopener noreferrer" target="_blank">
                             <i classNamw="fab fa-earth social-icons-sidebar"></i>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 

@@ -1,5 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './connect.css';
+import {email} from '@fortawesome/fontawesome-svg-core'
 
 
 let Connect = () => {
@@ -17,11 +19,17 @@ let Connect = () => {
                 </form>
             </div>
             <div className='connect-detals'>
-                <h5 className='h5'>Location:</h5>
+                <h5 className='h5'>
+                    {/* <i class="fa-sharp fa-solid fa-location-dot"></i> */}
+                    Location:</h5>
                 <p className='para'>Karachi, PK</p>
-                <h5 className='h5'>Email:</h5>
+                <h5 className='h5'>
+                    {/* <i class="fa-regular fa-envelope"></i> */}
+                    Email:</h5>
                 <p className='para'>beingawaisali@gmail.com</p>
-                <h5 className='h5'>Number:</h5>
+                <h5 className='h5'>
+                    {/* <i class="fa-regular fa-hashtag"></i> */}
+                    Number:</h5>
                 <p className='para'>+923222832388</p>
             </div>
         </div>

@@ -16,19 +16,19 @@ function Footer() {
                     <ul className="footer-list-sec">
                         <li>
                             <i className="fab fa-github"></i>
-                            <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Github</a>
+                            <a href="https://github.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank"> Github</a>
                         </li>
                         <li>
                             <i className="fab fa-facebook"></i>
-                            <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Facebook</a>
+                            <a href="https://facebook.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank"> Facebook</a>
                         </li>
                         <li>
                             <i className="fab fa-linkedin"></i>
-                            <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">LinkedIn</a>
+                            <a href="https://linkedin.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank"> LinkedIn</a>
                         </li>
                         <li>
                             <i className="fab fa-twitter"></i>
-                            <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+                            <a href="https://twitter.com/beingawaisali" rel="nofollow noopener noreferrer" target="_blank"> Twitter</a>
                         </li>
                     </ul>
                 </div>
