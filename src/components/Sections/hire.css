@@ -33,8 +33,25 @@
 
 .hire-service:hover {
     width: 390px;
+    margin: 0px;
 }
 
 .hire-image {
     width: 100%;
+}
+
+@media(max-width: 400px) {
+    .hire-service {
+        width: 350px;
+    }
+}
+@media(max-width: 360px) {
+    .hire-service {
+        width: 320px;
+    }
+}
+@media(max-width: 330px) {
+    .hire-service {
+        width: 300px;
+    }
 }
