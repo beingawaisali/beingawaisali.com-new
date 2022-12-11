@@ -1,8 +1,9 @@
 #hire-parent {
     /* width: 100%; */
     padding: 5px 20px;
-    height: 300px;
+    /* height: 300px; */
     background-color: #041C32;
+    
 }
 
 
@@ -11,5 +12,29 @@
 }
 
 .hire-parent {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hire-service {
+    background-color: #041C32;
+    border: 1px solid grey;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    padding-bottom: 10px;
+}
+
+.hire-service:hover {
+    width: 390px;
+}
+
+.hire-image {
+    width: 100%;
 }

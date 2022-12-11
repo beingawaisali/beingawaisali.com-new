@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './connect.css';
-import {email} from '@fortawesome/fontawesome-svg-core'
 
 
 let Connect = () => {
